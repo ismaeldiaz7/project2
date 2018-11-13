@@ -1,0 +1,127 @@
+h1{
+	font-family: 'Anton', sans-serif;
+	color: #E7EBF1;
+	font-size: 60px;
+}
+
+nav {
+	border: 10px solid black;
+	border-radius: 15px;
+}
+.classhomepage{
+	font-size: 35px;
+}
+
+
+.classcon{
+	font-size: 35px;
+}
+
+.classpro{
+	font-size: 35px;
+}
+
+.classaboutme{
+	font-size: 35px;
+}
+
+.classsurvey{
+	font-size: 35px;
+}
+
+h4{
+	color: #E7EBF1;
+}
+
+.classimage1{
+	height: 600px;
+	width: 80%;
+	grid-coloum-start:1;
+	grid-coloum-end span:2;
+}
+.classdisney {
+	height: 400px;
+	width: 40%;
+	margin-left: 450px;
+
+}
+
+.mickymouse{
+	height: 300px;
+	width: 15%;
+}
+
+p{
+	color: #E7EBF1;
+	font-family: 'Courgette', cursive;
+	text-align: left;
+	font-size: 48px;
+}
+
+body{
+	background-color: #2f6ed6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f6ed6;
+}
+
+li {
+    float: left;
+	background-color: #2f6ed6
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #568EEA;
+}
+
+.active {
+    background-color: #2f6ed6;
+}
+
+.classdebate{
+	text-align: right;
+	font-size: 100px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+td{
+	color: #FFFFFF;
+}
+
+tr{
+	color: #FFFFFF;
+}
+
+h2{
+	color: #FFFFFF;	
+}
+
+.classthumbsdown{
+	height:300px;
+	width:15%;
+}
+
+.classthumbsup{
+	height: 400px;
+	width:30%;
+}
+
+.classshrug{
+	height:400px;
+}
