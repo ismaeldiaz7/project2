@@ -97,19 +97,19 @@ li a:hover:not(.active) {
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 td{
-	color: #FFFFFF;
+	color: #E7EBF1;
 }
 
 tr{
-	color: #FFFFFF;
+	color: #E7EBF1;
 }
 
 h2{
-	color: #FFFFFF;	
+	color: #E7EBF1;	
 }
 
 .classthumbsdown{
@@ -124,4 +124,63 @@ h2{
 
 .classshrug{
 	height:400px;
+}
+
+.gr1d {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gr2d {
+	grid-row-start: 1;
+	grid-coloum-end: span 1;
+	text-align: center;
+}
+
+.personalexperience{
+	color:#E7EBF1;
+	font-size: 27px;
+}
+
+.employeeadvantages{
+	color: #E7EBF1;
+	font-size: 27px;
+}
+
+.waitingtime{
+	color:#E7EBF1;
+	font-size: 27px;
+}
+
+.calltoaction{
+	color: #E7EBF1;
+	font-family: 'Bungee', cursive;
+}
+
+p.inset {border-style: inset;}
+
+.cross{
+	grid-row-start: 2;
+	grid-coloum-end: span 1;
+}
+
+.check{
+	grid-row-start: 1;
+	grid-coloum-end: span 1;
+}
+
+.mickey{
+	height: 500px;
+	width: 500px;
+}
+
+.sixflags{
+	height:300px;
+	width:450px;
+}
+
+.knotts{
+	height: 300px;
+	width: 500px;
 }
